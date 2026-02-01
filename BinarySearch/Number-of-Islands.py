@@ -15,7 +15,7 @@
 15            q.append((r, c))
 16
 17            while q:
-18                row, col = q.pop()
+18                row, col = q.popleft()
 19                directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
 20
 21                for dr, dc in directions:
